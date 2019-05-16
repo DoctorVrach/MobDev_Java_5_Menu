@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MENU</string>
+    <string name="Ras">გაფართოებული მენიუ</string>
+    <string name="add">დამატება</string>
+    <string name="edit">შეიცვლა</string>
+    <string name="delete">წაშლა</string>
+    <string name="copy">კოპირება</string>
+    <string name="lol">ლოლ</string>
+    <string name="kek">კეკ</string>
+    <string name="paste">ჩადეთ</string>
+    <string name="exit">გამოსვლა</string>
+    <string name="cheburek">ჩებურეკი</string>
+</resources>

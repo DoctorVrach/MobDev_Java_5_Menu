@@ -3,43 +3,48 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/menu_add"
-        android:title="add">
+        android:title="@string/add">
     </item>
     <item
         android:id="@+id/menu_edit"
-        android:title="edit">
+        android:title="@string/edit">
     </item>
     <item
         android:id="@+id/menu_delete"
         android:orderInCategory="3"
-        android:title="delete">
+        android:title="@string/delete">
     </item>
     <group
         android:id="@+id/group1">
         <item
             android:id="@+id/menu_copy"
             android:orderInCategory="1"
-            android:title="copy">
+            android:title="@string/copy">
         </item>
         <item
             android:id="@+id/lol"
             android:orderInCategory="1"
-            android:title="Lol">
+            android:title="@string/lol">
         </item>
         <item
             android:id="@+id/kek"
             android:orderInCategory="1"
-            android:title="Kek">
+            android:title="@string/kek">
+        </item>
+        <item
+            android:id="@+id/cheburek"
+            android:orderInCategory="1"
+            android:title="@string/cheburek">
         </item>
         <item
             android:id="@+id/menu_paste"
             android:orderInCategory="2"
-            android:title="paste">
+            android:title="@string/paste">
         </item>
         <item
             android:id="@+id/menu_exit"
             android:orderInCategory="4"
-            android:title="exit">
+            android:title="@string/exit">
         </item>
     </group>
 </menu>

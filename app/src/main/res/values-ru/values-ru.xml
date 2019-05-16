@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">МенюДемоДжава</string>
+    <string name="Ras">расширенное меню</string>
+    <string name="add">добавить</string>
+    <string name="edit">изменить</string>
+    <string name="delete">удалить</string>
+    <string name="copy">копировать</string>
+    <string name="lol">лол</string>
+    <string name="kek">кек</string>
+    <string name="paste">вставить</string>
+    <string name="exit">выход</string>
+    <string name="cheburek">cheburek</string>
+</resources>

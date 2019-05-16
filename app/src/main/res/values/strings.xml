@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">MenuDemoJava</string>
+    <string name="Ras">extended menu</string>
+    <string name="add">add</string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+    <string name="copy">copy</string>
+    <string name="lol">Lol</string>
+    <string name="kek">Kek</string>
+    <string name="paste">paste</string>
+    <string name="exit">exit</string>
+    <string name="cheburek">cheburek</string>
 </resources>
