@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.mymenu, menu);
         return super.onCreateOptionsMenu(menu);
+
+
     }
 
 
@@ -38,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
         // TODO Auto-generated method stub
         // пункты меню с ID группы = 1 видны, если в CheckBox стоит галка
         menu.setGroupVisible(1, chb.isChecked());
-        return super.onPrepareOptionsMenu(menu);
-    }
+        menu.setGroupVisible(R.id.group1, chb.isChecked());
+        return super.onPrepareOptionsMenu(menu);    }
 
     // обработка нажатий
     @Override
@@ -54,8 +56,24 @@ public class MainActivity extends AppCompatActivity {
         sb.append("\r\n order: " + String.valueOf(item.getOrder()));
         sb.append("\r\n title: " + item.getTitle());
         tv.setText(sb.toString());
-
+        if(item.getItemId()== R.id.menu_exit){
+            moveTaskToBack(true);
+            android.os.Process.killProcess(android.os.Process.myPid());
+            System.exit(1);
+        }
+        else{
+            // TODO Auto-generated method stub
+            // Выведем в TextView информацию о нажатом пункте меню
+            sb.append("Item Menu");
+            sb.append("\r\n groupId: " + String.valueOf(item.getGroupId()));
+            sb.append("\r\n itemId: " + String.valueOf(item.getItemId()));
+            sb.append("\r\n order: " + String.valueOf(item.getOrder()));
+            sb.append("\r\n title: " + item.getTitle());
+            tv.setText(sb.toString());
+        }
         return super.onOptionsItemSelected(item);
     }
+
+
 
 }

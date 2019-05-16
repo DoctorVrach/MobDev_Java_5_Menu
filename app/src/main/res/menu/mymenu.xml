@@ -22,6 +22,16 @@
             android:title="copy">
         </item>
         <item
+            android:id="@+id/lol"
+            android:orderInCategory="1"
+            android:title="Lol">
+        </item>
+        <item
+            android:id="@+id/kek"
+            android:orderInCategory="1"
+            android:title="Kek">
+        </item>
+        <item
             android:id="@+id/menu_paste"
             android:orderInCategory="2"
             android:title="paste">
